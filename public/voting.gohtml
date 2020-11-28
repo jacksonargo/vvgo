@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Votabulatron 5000</title>
+    <meta name="description" content="">
+    {{ template "header.gohtml" }}
+    <script type="text/javascript" src="js/voting.js"></script>
+</head>
+
+<body class="">
+{{ template "navbar.gohtml" }}
+
+<div class="mt-2 container">
+    <div class="row justify-content-center">
+        <div class="col col-md-auto text-light text-center">
+            <h1>Ballot</h1>
+            <h4>Choices</h4>
+            <table class="table table-responsive table-borderless text-light text-center">
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class="dropzone">
+                        <div id="choice-mario" draggable="true" class="btn-sm btn-secondary draggable">
+                            Mario
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="dropzone">
+                        <div id="choice-zelda" draggable="true" class="btn-sm btn-secondary draggable">
+                            Zelda
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="dropzone">
+                        <div id="choice-animal-crossing" draggable="true" class="btn-sm btn-secondary draggable">
+                            Animal Crossing
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</div>
+{{ template "footer.gohtml" }}
+</body>
+</html>

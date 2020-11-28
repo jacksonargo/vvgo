@@ -105,6 +105,8 @@ func NewServer(ctx context.Context, config ServerConfig) *Server {
 	mux.Handle("/projects", http.RedirectHandler("/projects/", http.StatusFound), login.RoleAnonymous)
 	mux.Handle("/projects/", ProjectsView{template}, login.RoleAnonymous)
 
+	mux.Handle("/voting", VotingView{template}, login.RoleVVGOLeader)
+
 	mux.Handle("/download", DownloadHandler{
 		config.DistroBucketName: database.Distro.DownloadURL,
 	}, login.RoleVVGOMember)
