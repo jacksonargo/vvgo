@@ -2,7 +2,7 @@
 ![build](https://github.com/virtual-vgo/vvgo/workflows/build/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/virtual-vgo/vvgo)](https://goreportcard.com/report/github.com/virtual-vgo/vvgo)
 
-# Virtual Video Game Orchestra
+# Virtual Video Game Orchestra CHEEEEEEEEEESE
 
 :wave: We are the Virtual Video Game Orchestra (VVGO for short). Our mission is to provide a fun and accessible virtual community of musicians from around the world through performing video game music.
 
